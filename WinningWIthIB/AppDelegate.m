@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "AAPLTraitOverrideViewController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
+    ViewController *controller = (ViewController*)[mainStoryboard instantiateViewControllerWithIdentifier: @"Calculator"];
+
+    AAPLTraitOverrideViewController *traitController = [[AAPLTraitOverrideViewController alloc] init];
+    traitController.viewController = controller;
+    self.window.rootViewController = traitController;
+    
     return YES;
 }
 
