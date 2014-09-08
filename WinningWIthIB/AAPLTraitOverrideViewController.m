@@ -16,7 +16,8 @@
 
 @implementation AAPLTraitOverrideViewController
 
-- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator>)coordinator
+
+- (void)determineForcedTraitCollection:(CGSize)size
 {
     if ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad) {
         if (size.width > size.height) { // landscape
@@ -33,6 +34,11 @@
             self.forcedTraitCollection = [UITraitCollection traitCollectionWithVerticalSizeClass:UIUserInterfaceSizeClassCompact];
         }
     }
+}
+
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator>)coordinator
+{
+    [self determineForcedTraitCollection:size];
     [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
 }
 
@@ -67,6 +73,8 @@
             [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|[view]|" options:0 metrics:nil views:views]];
             [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[view]|" options:0 metrics:nil views:views]];
             [_viewController didMoveToParentViewController:self];
+            
+            [self determineForcedTraitCollection:view.bounds.size];
             
             [self updateForcedTraitCollection];
         }
