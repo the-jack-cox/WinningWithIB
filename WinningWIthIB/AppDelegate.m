@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "AAPLTraitOverrideViewController.h"
+#import "TraitOverrideViewController.h"
 #import "ViewController.h"
 
 @interface AppDelegate ()
@@ -23,7 +23,7 @@
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
     ViewController *controller = (ViewController*)[mainStoryboard instantiateViewControllerWithIdentifier: @"Calculator"];
 
-    AAPLTraitOverrideViewController *traitController = [[AAPLTraitOverrideViewController alloc] init];
+    TraitOverrideViewController *traitController = [[TraitOverrideViewController alloc] init];
     traitController.viewController = controller;
     self.window.rootViewController = traitController;
     

@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA0869E819ABFCD600DD1FC3 /* AAPLTraitOverrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0869E719ABFCD600DD1FC3 /* AAPLTraitOverrideViewController.m */; };
+		FA0869E819ABFCD600DD1FC3 /* TraitOverrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0869E719ABFCD600DD1FC3 /* TraitOverrideViewController.m */; };
 		FA4B3A4C198D6CEF00667ABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4B3A4B198D6CEF00667ABA /* main.m */; };
 		FA4B3A4F198D6CEF00667ABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4B3A4E198D6CEF00667ABA /* AppDelegate.m */; };
 		FA4B3A52198D6CEF00667ABA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4B3A51198D6CEF00667ABA /* ViewController.m */; };
 		FA4B3A55198D6CEF00667ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4B3A53198D6CEF00667ABA /* Main.storyboard */; };
 		FA4B3A57198D6CEF00667ABA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4B3A56198D6CEF00667ABA /* Images.xcassets */; };
 		FA4B3A63198D6CEF00667ABA /* WinningWIthIBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4B3A62198D6CEF00667ABA /* WinningWIthIBTests.m */; };
+		FA67557C19C4C2AE00243658 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA67557B19C4C2AE00243658 /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA0869E619ABFCD600DD1FC3 /* AAPLTraitOverrideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLTraitOverrideViewController.h; sourceTree = "<group>"; };
-		FA0869E719ABFCD600DD1FC3 /* AAPLTraitOverrideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLTraitOverrideViewController.m; sourceTree = "<group>"; };
+		FA0869E619ABFCD600DD1FC3 /* TraitOverrideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitOverrideViewController.h; sourceTree = "<group>"; };
+		FA0869E719ABFCD600DD1FC3 /* TraitOverrideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitOverrideViewController.m; sourceTree = "<group>"; };
 		FA4B3A46198D6CEF00667ABA /* WinningWIthIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinningWIthIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4B3A4A198D6CEF00667ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA4B3A4B198D6CEF00667ABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,6 +42,7 @@
 		FA4B3A5C198D6CEF00667ABA /* WinningWIthIBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinningWIthIBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4B3A61198D6CEF00667ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA4B3A62198D6CEF00667ABA /* WinningWIthIBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinningWIthIBTests.m; sourceTree = "<group>"; };
+		FA67557B19C4C2AE00243658 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		FA4B3A3D198D6CEE00667ABA = {
 			isa = PBXGroup;
 			children = (
+				FA67557B19C4C2AE00243658 /* Launch Screen.xib */,
 				FA4B3A48198D6CEF00667ABA /* WinningWIthIB */,
 				FA4B3A5F198D6CEF00667ABA /* WinningWIthIBTests */,
 				FA4B3A47198D6CEF00667ABA /* Products */,
@@ -87,8 +90,8 @@
 				FA4B3A50198D6CEF00667ABA /* ViewController.h */,
 				FA4B3A51198D6CEF00667ABA /* ViewController.m */,
 				FA4B3A53198D6CEF00667ABA /* Main.storyboard */,
-				FA0869E619ABFCD600DD1FC3 /* AAPLTraitOverrideViewController.h */,
-				FA0869E719ABFCD600DD1FC3 /* AAPLTraitOverrideViewController.m */,
+				FA0869E619ABFCD600DD1FC3 /* TraitOverrideViewController.h */,
+				FA0869E719ABFCD600DD1FC3 /* TraitOverrideViewController.m */,
 				FA4B3A56198D6CEF00667ABA /* Images.xcassets */,
 				FA4B3A49198D6CEF00667ABA /* Supporting Files */,
 			);
@@ -203,6 +206,7 @@
 			files = (
 				FA4B3A55198D6CEF00667ABA /* Main.storyboard in Resources */,
 				FA4B3A57198D6CEF00667ABA /* Images.xcassets in Resources */,
+				FA67557C19C4C2AE00243658 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +227,7 @@
 				FA4B3A52198D6CEF00667ABA /* ViewController.m in Sources */,
 				FA4B3A4F198D6CEF00667ABA /* AppDelegate.m in Sources */,
 				FA4B3A4C198D6CEF00667ABA /* main.m in Sources */,
-				FA0869E819ABFCD600DD1FC3 /* AAPLTraitOverrideViewController.m in Sources */,
+				FA0869E819ABFCD600DD1FC3 /* TraitOverrideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
