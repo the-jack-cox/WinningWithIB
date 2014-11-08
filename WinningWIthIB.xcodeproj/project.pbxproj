@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA0869E819ABFCD600DD1FC3 /* TraitOverrideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0869E719ABFCD600DD1FC3 /* TraitOverrideViewController.m */; };
+		FA4641E11A0E5D20002C316E /* UIView+Inspectables.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4641E01A0E5D20002C316E /* UIView+Inspectables.m */; };
 		FA4B3A4C198D6CEF00667ABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4B3A4B198D6CEF00667ABA /* main.m */; };
 		FA4B3A4F198D6CEF00667ABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4B3A4E198D6CEF00667ABA /* AppDelegate.m */; };
 		FA4B3A52198D6CEF00667ABA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4B3A51198D6CEF00667ABA /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		FA4B3A57198D6CEF00667ABA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4B3A56198D6CEF00667ABA /* Images.xcassets */; };
 		FA4B3A63198D6CEF00667ABA /* WinningWIthIBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4B3A62198D6CEF00667ABA /* WinningWIthIBTests.m */; };
 		FA67557C19C4C2AE00243658 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA67557B19C4C2AE00243658 /* Launch Screen.xib */; };
+		FA67558019C4C6E700243658 /* KeypadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA67557E19C4C6E700243658 /* KeypadViewController.swift */; };
+		FA67558119C4C6E700243658 /* KeypadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA67557F19C4C6E700243658 /* KeypadViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,8 @@
 /* Begin PBXFileReference section */
 		FA0869E619ABFCD600DD1FC3 /* TraitOverrideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraitOverrideViewController.h; sourceTree = "<group>"; };
 		FA0869E719ABFCD600DD1FC3 /* TraitOverrideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraitOverrideViewController.m; sourceTree = "<group>"; };
+		FA4641DF1A0E5D20002C316E /* UIView+Inspectables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Inspectables.h"; sourceTree = "<group>"; };
+		FA4641E01A0E5D20002C316E /* UIView+Inspectables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Inspectables.m"; sourceTree = "<group>"; };
 		FA4B3A46198D6CEF00667ABA /* WinningWIthIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinningWIthIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4B3A4A198D6CEF00667ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA4B3A4B198D6CEF00667ABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +48,9 @@
 		FA4B3A61198D6CEF00667ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA4B3A62198D6CEF00667ABA /* WinningWIthIBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WinningWIthIBTests.m; sourceTree = "<group>"; };
 		FA67557B19C4C2AE00243658 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		FA67557D19C4C6E600243658 /* WinningWIthIB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WinningWIthIB-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA67557E19C4C6E700243658 /* KeypadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeypadViewController.swift; sourceTree = "<group>"; };
+		FA67557F19C4C6E700243658 /* KeypadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeypadViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,8 @@
 			children = (
 				FA4B3A4D198D6CEF00667ABA /* AppDelegate.h */,
 				FA4B3A4E198D6CEF00667ABA /* AppDelegate.m */,
+				FA67557E19C4C6E700243658 /* KeypadViewController.swift */,
+				FA67557F19C4C6E700243658 /* KeypadViewController.xib */,
 				FA4B3A50198D6CEF00667ABA /* ViewController.h */,
 				FA4B3A51198D6CEF00667ABA /* ViewController.m */,
 				FA4B3A53198D6CEF00667ABA /* Main.storyboard */,
@@ -94,6 +104,9 @@
 				FA0869E719ABFCD600DD1FC3 /* TraitOverrideViewController.m */,
 				FA4B3A56198D6CEF00667ABA /* Images.xcassets */,
 				FA4B3A49198D6CEF00667ABA /* Supporting Files */,
+				FA67557D19C4C6E600243658 /* WinningWIthIB-Bridging-Header.h */,
+				FA4641DF1A0E5D20002C316E /* UIView+Inspectables.h */,
+				FA4641E01A0E5D20002C316E /* UIView+Inspectables.m */,
 			);
 			path = WinningWIthIB;
 			sourceTree = "<group>";
@@ -206,6 +219,7 @@
 			files = (
 				FA4B3A55198D6CEF00667ABA /* Main.storyboard in Resources */,
 				FA4B3A57198D6CEF00667ABA /* Images.xcassets in Resources */,
+				FA67558119C4C6E700243658 /* KeypadViewController.xib in Resources */,
 				FA67557C19C4C2AE00243658 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA4B3A52198D6CEF00667ABA /* ViewController.m in Sources */,
+				FA4641E11A0E5D20002C316E /* UIView+Inspectables.m in Sources */,
 				FA4B3A4F198D6CEF00667ABA /* AppDelegate.m in Sources */,
+				FA67558019C4C6E700243658 /* KeypadViewController.swift in Sources */,
 				FA4B3A4C198D6CEF00667ABA /* main.m in Sources */,
 				FA0869E819ABFCD600DD1FC3 /* TraitOverrideViewController.m in Sources */,
 			);
@@ -344,9 +360,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WinningWIthIB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WinningWIthIB/WinningWIthIB-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -355,9 +374,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WinningWIthIB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WinningWIthIB/WinningWIthIB-Bridging-Header.h";
 			};
 			name = Release;
 		};

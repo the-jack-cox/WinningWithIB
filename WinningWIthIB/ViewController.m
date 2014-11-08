@@ -8,7 +8,14 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "WinningWIthIB-Swift.h"
+
+
+@interface ViewController () {
+    UIViewController *childKeypad;
+}
+@property (weak, nonatomic) IBOutlet UIView *keypadArea;
+@property (weak, nonatomic) IBOutlet UIView *tapeArea;
 
 @end
 
@@ -19,6 +26,8 @@
     
     
     // Do any additional setup after loading the view, typically from a nib.
+    
+       
 }
 
 - (void)didReceiveMemoryWarning {
