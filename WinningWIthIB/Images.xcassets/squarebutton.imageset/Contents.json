@@ -1,0 +1,87 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "roundbutton-2.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "heightClass" : "regular",
+      "idiom" : "universal",
+      "filename" : "squarebutton.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "heightClass" : "regular"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "heightClass" : "regular"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "squarebutton-1.png",
+      "widthClass" : "compact",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "widthClass" : "compact"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "widthClass" : "compact"
+    },
+    {
+      "heightClass" : "regular",
+      "idiom" : "universal",
+      "filename" : "squarebutton-2.png",
+      "widthClass" : "compact",
+      "scale" : "1x"
+    },
+    {
+      "heightClass" : "regular",
+      "idiom" : "universal",
+      "widthClass" : "compact",
+      "scale" : "2x"
+    },
+    {
+      "heightClass" : "regular",
+      "idiom" : "universal",
+      "widthClass" : "compact",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "roundbutton-1.png",
+      "widthClass" : "compact",
+      "unassigned" : true,
+      "scale" : "1x"
+    },
+    {
+      "heightClass" : "compact",
+      "idiom" : "universal",
+      "filename" : "roundbutton.png",
+      "widthClass" : "compact",
+      "unassigned" : true,
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

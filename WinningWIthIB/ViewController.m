@@ -26,8 +26,19 @@
     
     
     // Do any additional setup after loading the view, typically from a nib.
+    KeypadViewController *keypad = [[KeypadViewController alloc] init];
+    keypad.view.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.keypadArea addSubview:keypad.view];
     
-       
+    [self addChildViewController:keypad];
+    
+    UIView *keypadView = keypad.view;
+    NSDictionary *views = NSDictionaryOfVariableBindings(keypadView);
+    // using Visual Format language for brevity sake. Don't do this in a real app
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|[keypadView]|" options:0 metrics:nil views:views]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[keypadView]|" options:0 metrics:nil views:views]];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

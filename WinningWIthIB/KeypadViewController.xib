@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeypadViewController" customModule="WinningWIthIB" customModuleProvider="target">
@@ -15,306 +14,375 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="faK-a8-zUF" userLabel="NumericSide">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="faK-a8-zUF" userLabel="NumericSide">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7k-1J-rN7" userLabel="C">
-                            <rect key="frame" x="20" y="20" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7k-1J-rN7" userLabel="C">
+                            <rect key="frame" x="20" y="20" width="134" height="106"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="C">
-                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="56" y="47" width="46" height="30"/>
-                            </variation>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ft-G8-yla" userLabel="PM">
-                            <rect key="frame" x="58" y="20" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ft-G8-yla" userLabel="PM">
+                            <rect key="frame" x="162" y="20" width="134" height="106"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="+/-">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="187" y="47" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cic-sq-Nqe" userLabel="Div">
-                            <rect key="frame" x="96" y="20" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cic-sq-Nqe" userLabel="Div">
+                            <rect key="frame" x="304" y="20" width="134" height="106"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="/">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="301" y="47" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMv-qz-iP5" userLabel="Mult">
-                            <rect key="frame" x="134" y="20" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMv-qz-iP5" userLabel="Mult">
+                            <rect key="frame" x="446" y="20" width="134" height="106"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="*">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="424" y="47" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiB-wT-gYD" userLabel="7">
-                            <rect key="frame" x="20" y="88" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiB-wT-gYD" userLabel="7">
+                            <rect key="frame" x="20" y="134" width="134" height="105"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="7">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="56" y="118" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KjX-Jz-bUn" userLabel="8">
-                            <rect key="frame" x="58" y="88" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KjX-Jz-bUn" userLabel="8">
+                            <rect key="frame" x="162" y="134" width="134" height="105"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="8">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="187" y="118" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3R-hL-VIM" userLabel="9">
-                            <rect key="frame" x="96" y="88" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3R-hL-VIM" userLabel="9">
+                            <rect key="frame" x="304" y="134" width="134" height="105"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="9">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="301" y="118" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhR-Nx-k6r">
-                            <rect key="frame" x="134" y="88" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhR-Nx-k6r">
+                            <rect key="frame" x="446" y="134" width="134" height="105"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="-">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="424" y="118" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UC8-K2-Byy">
-                            <rect key="frame" x="134" y="156" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UC8-K2-Byy">
+                            <rect key="frame" x="446" y="247" width="134" height="106"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="+">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="424" y="118" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fb0-Op-f0n">
-                            <rect key="frame" x="20" y="156" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fb0-Op-f0n">
+                            <rect key="frame" x="20" y="247" width="134" height="106"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="4">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="56" y="191" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdh-SZ-wNe">
-                            <rect key="frame" x="58" y="156" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdh-SZ-wNe">
+                            <rect key="frame" x="162" y="247" width="134" height="106"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="5">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="187" y="191" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYT-UV-LvN">
-                            <rect key="frame" x="96" y="156" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NYT-UV-LvN">
+                            <rect key="frame" x="304" y="247" width="134" height="106"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="6">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="301" y="191" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q41-th-0BR">
-                            <rect key="frame" x="58" y="224" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q41-th-0BR">
+                            <rect key="frame" x="162" y="361" width="134" height="105"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="2">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="187" y="253" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQt-Rs-cEr">
-                            <rect key="frame" x="20" y="224" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQt-Rs-cEr">
+                            <rect key="frame" x="20" y="361" width="134" height="105"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="1">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="187" y="253" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slt-GE-6o1">
-                            <rect key="frame" x="96" y="224" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Slt-GE-6o1">
+                            <rect key="frame" x="304" y="361" width="134" height="105"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="3">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="301" y="253" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3p4-So-2Mz">
-                            <rect key="frame" x="28" y="292" width="60" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3p4-So-2Mz">
+                            <rect key="frame" x="20" y="474" width="276" height="106"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="0">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="187" y="253" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKQ-re-3jY">
-                            <rect key="frame" x="96" y="292" width="30" height="60"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKQ-re-3jY">
+                            <rect key="frame" x="304" y="474" width="134" height="106"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title=".">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="301" y="253" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ed9-gq-hUl">
-                            <rect key="frame" x="134" y="224" width="30" height="30"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ed9-gq-hUl">
+                            <rect key="frame" x="446" y="361" width="134" height="219"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                             <state key="normal" title="=">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
-                                <rect key="frame" x="424" y="253" width="46" height="30"/>
-                            </variation>
+                            <state key="selected">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="qhR-Nx-k6r" secondAttribute="width" id="02P-Ux-h8h"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="leading" secondItem="Slt-GE-6o1" secondAttribute="trailing" constant="8" symbolic="YES" id="0JX-Vk-Sey"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="q41-th-0BR" secondAttribute="height" id="20A-Lq-Tq0"/>
-                        <constraint firstItem="KjX-Jz-bUn" firstAttribute="leading" secondItem="UiB-wT-gYD" secondAttribute="trailing" constant="8" symbolic="YES" id="3Ef-A2-xa8"/>
-                        <constraint firstItem="Fb0-Op-f0n" firstAttribute="top" secondItem="UiB-wT-gYD" secondAttribute="bottom" constant="8" symbolic="YES" id="4Yl-mM-eVX"/>
-                        <constraint firstItem="cic-sq-Nqe" firstAttribute="leading" secondItem="4ft-G8-yla" secondAttribute="trailing" constant="8" symbolic="YES" id="6De-Rz-O7L"/>
-                        <constraint firstItem="qhR-Nx-k6r" firstAttribute="leading" secondItem="h3R-hL-VIM" secondAttribute="trailing" constant="8" symbolic="YES" id="6ie-JS-vFx"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="h3R-hL-VIM" secondAttribute="width" id="7Df-GR-ngr"/>
-                        <constraint firstAttribute="bottom" secondItem="GKQ-re-3jY" secondAttribute="bottom" constant="20" symbolic="YES" id="8n7-ef-SMY"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="Slt-GE-6o1" secondAttribute="width" id="9Ft-0q-rwz"/>
-                        <constraint firstItem="GKQ-re-3jY" firstAttribute="top" secondItem="q41-th-0BR" secondAttribute="bottom" constant="8" symbolic="YES" id="9LL-le-eiw"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="Fb0-Op-f0n" secondAttribute="width" id="9VZ-Rq-qAA"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="Slt-GE-6o1" secondAttribute="height" id="9ap-ph-sqY"/>
-                        <constraint firstItem="hdh-SZ-wNe" firstAttribute="top" secondItem="KjX-Jz-bUn" secondAttribute="bottom" constant="8" symbolic="YES" id="AUN-ax-evd"/>
-                        <constraint firstItem="qhR-Nx-k6r" firstAttribute="top" secondItem="cMv-qz-iP5" secondAttribute="bottom" constant="8" symbolic="YES" id="DeB-iV-MBR"/>
-                        <constraint firstItem="GKQ-re-3jY" firstAttribute="leading" secondItem="3p4-So-2Mz" secondAttribute="trailing" constant="8" symbolic="YES" id="DnT-pn-G6U"/>
-                        <constraint firstItem="UiB-wT-gYD" firstAttribute="leading" secondItem="faK-a8-zUF" secondAttribute="leading" constant="20" symbolic="YES" id="EFU-K3-gnO"/>
-                        <constraint firstItem="Fb0-Op-f0n" firstAttribute="leading" secondItem="faK-a8-zUF" secondAttribute="leading" constant="20" symbolic="YES" id="ExW-IZ-eEg"/>
-                        <constraint firstAttribute="trailing" secondItem="qhR-Nx-k6r" secondAttribute="trailing" constant="20" symbolic="YES" id="FyJ-yi-CGt"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="top" secondItem="faK-a8-zUF" secondAttribute="top" constant="20" symbolic="YES" id="G3g-Zh-Ygd"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="UC8-K2-Byy" secondAttribute="width" id="GLZ-0L-7KM"/>
-                        <constraint firstItem="h3R-hL-VIM" firstAttribute="leading" secondItem="KjX-Jz-bUn" secondAttribute="trailing" constant="8" symbolic="YES" id="InM-bK-Upm"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="4ft-G8-yla" secondAttribute="height" id="JAN-Ap-G7v"/>
-                        <constraint firstItem="q41-th-0BR" firstAttribute="top" secondItem="hdh-SZ-wNe" secondAttribute="bottom" constant="8" symbolic="YES" id="K6L-QN-Z1w"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="GKQ-re-3jY" secondAttribute="height" id="KDr-Zj-ufd"/>
-                        <constraint firstItem="4ft-G8-yla" firstAttribute="top" secondItem="faK-a8-zUF" secondAttribute="top" constant="20" symbolic="YES" id="L24-2I-5AM"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="Fb0-Op-f0n" secondAttribute="height" id="LMK-jC-I4e"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="dQt-Rs-cEr" secondAttribute="width" id="Lve-oZ-tb7"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="cMv-qz-iP5" secondAttribute="height" id="M2d-Nh-A7B"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="UC8-K2-Byy" secondAttribute="height" id="M3L-lC-ZvS"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="KjX-Jz-bUn" secondAttribute="height" id="O9i-W2-Dg7"/>
-                        <constraint firstItem="cMv-qz-iP5" firstAttribute="leading" secondItem="cic-sq-Nqe" secondAttribute="trailing" constant="8" symbolic="YES" id="QR9-j2-9pp"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="4ft-G8-yla" secondAttribute="width" id="RIN-gL-tSq"/>
-                        <constraint firstItem="UC8-K2-Byy" firstAttribute="top" secondItem="qhR-Nx-k6r" secondAttribute="bottom" constant="8" symbolic="YES" id="S1n-Je-9yI"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="NYT-UV-LvN" secondAttribute="width" id="SEB-LK-MnB"/>
-                        <constraint firstItem="NYT-UV-LvN" firstAttribute="leading" secondItem="hdh-SZ-wNe" secondAttribute="trailing" constant="8" symbolic="YES" id="TIb-O7-cY0"/>
-                        <constraint firstItem="UC8-K2-Byy" firstAttribute="leading" secondItem="NYT-UV-LvN" secondAttribute="trailing" constant="8" symbolic="YES" id="TMJ-JC-6Ze"/>
-                        <constraint firstAttribute="bottom" secondItem="3p4-So-2Mz" secondAttribute="bottom" constant="20" symbolic="YES" id="TvP-eW-Y9z"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="leading" secondItem="faK-a8-zUF" secondAttribute="leading" constant="20" symbolic="YES" id="UAW-z1-0Es"/>
-                        <constraint firstItem="Slt-GE-6o1" firstAttribute="leading" secondItem="q41-th-0BR" secondAttribute="trailing" constant="8" symbolic="YES" id="UMf-n5-hOv"/>
-                        <constraint firstItem="dQt-Rs-cEr" firstAttribute="leading" secondItem="faK-a8-zUF" secondAttribute="leading" constant="20" symbolic="YES" id="UtN-2G-i0q"/>
-                        <constraint firstItem="Slt-GE-6o1" firstAttribute="top" secondItem="NYT-UV-LvN" secondAttribute="bottom" constant="8" symbolic="YES" id="Vrm-Vj-RNa"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="cic-sq-Nqe" secondAttribute="height" id="Wfs-mr-a48"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="leading" secondItem="GKQ-re-3jY" secondAttribute="trailing" constant="8" symbolic="YES" id="X7i-eS-GqI"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="hdh-SZ-wNe" secondAttribute="width" id="YQN-yE-Rlb"/>
-                        <constraint firstItem="hdh-SZ-wNe" firstAttribute="leading" secondItem="Fb0-Op-f0n" secondAttribute="trailing" constant="8" symbolic="YES" id="amZ-QC-mJH"/>
-                        <constraint firstAttribute="trailing" secondItem="UC8-K2-Byy" secondAttribute="trailing" constant="20" symbolic="YES" id="bKm-ho-j5K"/>
-                        <constraint firstAttribute="bottom" secondItem="ed9-gq-hUl" secondAttribute="bottom" constant="20" symbolic="YES" id="cYn-hy-Grl"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="NYT-UV-LvN" secondAttribute="height" id="cpn-Is-beC"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="GKQ-re-3jY" secondAttribute="width" id="dj6-Dz-gaz"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="dQt-Rs-cEr" secondAttribute="height" id="doA-4x-9ki"/>
-                        <constraint firstItem="3p4-So-2Mz" firstAttribute="top" secondItem="dQt-Rs-cEr" secondAttribute="bottom" constant="8" symbolic="YES" id="dwL-Pg-EeZ"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="3p4-So-2Mz" secondAttribute="height" id="e2b-g2-Jmd"/>
-                        <constraint firstItem="q41-th-0BR" firstAttribute="leading" secondItem="dQt-Rs-cEr" secondAttribute="trailing" constant="8" symbolic="YES" id="fZe-Vt-60I"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="h3R-hL-VIM" secondAttribute="height" id="fab-2u-5Ow"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="UiB-wT-gYD" secondAttribute="width" id="g7S-Pu-V1P"/>
-                        <constraint firstAttribute="trailing" secondItem="ed9-gq-hUl" secondAttribute="trailing" constant="20" symbolic="YES" id="gFV-VJ-Qn4"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="cMv-qz-iP5" secondAttribute="width" id="hAm-Cu-9uR"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="top" secondItem="UC8-K2-Byy" secondAttribute="bottom" constant="8" symbolic="YES" id="hLQ-vV-dLJ"/>
-                        <constraint firstItem="UiB-wT-gYD" firstAttribute="top" secondItem="O7k-1J-rN7" secondAttribute="bottom" constant="8" symbolic="YES" id="iUn-Ja-4R3"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="q41-th-0BR" secondAttribute="width" id="jOo-JM-dMB"/>
-                        <constraint firstItem="NYT-UV-LvN" firstAttribute="top" secondItem="h3R-hL-VIM" secondAttribute="bottom" constant="8" symbolic="YES" id="lH2-qV-b5g"/>
-                        <constraint firstItem="4ft-G8-yla" firstAttribute="leading" secondItem="O7k-1J-rN7" secondAttribute="trailing" constant="8" symbolic="YES" id="mB0-zp-Fuv"/>
-                        <constraint firstItem="Slt-GE-6o1" firstAttribute="height" secondItem="ed9-gq-hUl" secondAttribute="height" multiplier="2" id="mhX-2f-EHC"/>
-                        <constraint firstItem="cic-sq-Nqe" firstAttribute="top" secondItem="faK-a8-zUF" secondAttribute="top" constant="20" symbolic="YES" id="oNc-PD-BOM"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="cic-sq-Nqe" secondAttribute="width" id="p9Q-ct-Xvw"/>
-                        <constraint firstAttribute="bottom" secondItem="Slt-GE-6o1" secondAttribute="bottom" constant="20" symbolic="YES" id="pi3-Bg-1ey"/>
-                        <constraint firstItem="dQt-Rs-cEr" firstAttribute="top" secondItem="Fb0-Op-f0n" secondAttribute="bottom" constant="8" symbolic="YES" id="qT3-p4-PLp"/>
-                        <constraint firstItem="cMv-qz-iP5" firstAttribute="top" secondItem="faK-a8-zUF" secondAttribute="top" constant="20" symbolic="YES" id="qzn-4O-gc3"/>
-                        <constraint firstItem="GKQ-re-3jY" firstAttribute="top" secondItem="dQt-Rs-cEr" secondAttribute="bottom" constant="8" symbolic="YES" id="rrV-1E-15y"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="UiB-wT-gYD" secondAttribute="height" id="rtk-ob-XiP"/>
-                        <constraint firstAttribute="trailing" secondItem="cMv-qz-iP5" secondAttribute="trailing" constant="20" symbolic="YES" id="sa7-F8-Suk"/>
-                        <constraint firstItem="h3R-hL-VIM" firstAttribute="top" secondItem="cic-sq-Nqe" secondAttribute="bottom" constant="8" symbolic="YES" id="suE-2a-aa9"/>
-                        <constraint firstItem="3p4-So-2Mz" firstAttribute="width" secondItem="dQt-Rs-cEr" secondAttribute="width" multiplier="2" id="tSW-Gb-RlS"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="hdh-SZ-wNe" secondAttribute="height" id="urv-rg-eDa"/>
-                        <constraint firstItem="O7k-1J-rN7" firstAttribute="height" secondItem="qhR-Nx-k6r" secondAttribute="height" id="vEW-nf-jp9"/>
-                        <constraint firstItem="3p4-So-2Mz" firstAttribute="leading" secondItem="faK-a8-zUF" secondAttribute="leading" constant="20" symbolic="YES" id="wlU-pF-7jE"/>
-                        <constraint firstItem="KjX-Jz-bUn" firstAttribute="top" secondItem="4ft-G8-yla" secondAttribute="bottom" constant="8" symbolic="YES" id="wpy-7x-OXv"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="KjX-Jz-bUn" secondAttribute="width" id="xyG-OH-xus"/>
-                        <constraint firstItem="ed9-gq-hUl" firstAttribute="width" secondItem="O7k-1J-rN7" secondAttribute="width" id="ysH-2e-aIQ"/>
+                        <constraint firstItem="UC8-K2-Byy" firstAttribute="top" secondItem="qhR-Nx-k6r" secondAttribute="bottom" constant="8" symbolic="YES" id="1xg-gN-uD5"/>
+                        <constraint firstItem="Fb0-Op-f0n" firstAttribute="leading" secondItem="faK-a8-zUF" secondAttribute="leading" constant="20" symbolic="YES" id="27c-F1-6Io"/>
+                        <constraint firstItem="4ft-G8-yla" firstAttribute="top" secondItem="faK-a8-zUF" secondAttribute="top" constant="20" symbolic="YES" id="2JF-BT-auq"/>
+                        <constraint firstItem="NYT-UV-LvN" firstAttribute="top" secondItem="h3R-hL-VIM" secondAttribute="bottom" constant="8" symbolic="YES" id="3Kg-Wj-XBn"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="O7k-1J-rN7" secondAttribute="height" id="3PV-CJ-iAz"/>
+                        <constraint firstItem="cMv-qz-iP5" firstAttribute="leading" secondItem="cic-sq-Nqe" secondAttribute="trailing" constant="8" symbolic="YES" id="6vH-BJ-va4"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="h3R-hL-VIM" secondAttribute="height" id="7JM-yK-XCp"/>
+                        <constraint firstItem="KjX-Jz-bUn" firstAttribute="leading" secondItem="UiB-wT-gYD" secondAttribute="trailing" constant="8" symbolic="YES" id="7Jq-4h-Qwc"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="q41-th-0BR" secondAttribute="width" id="7TX-CA-xo1"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="KjX-Jz-bUn" secondAttribute="width" id="7VO-RN-KBb"/>
+                        <constraint firstItem="cMv-qz-iP5" firstAttribute="top" secondItem="faK-a8-zUF" secondAttribute="top" constant="20" symbolic="YES" id="8BY-ex-4vg"/>
+                        <constraint firstItem="KjX-Jz-bUn" firstAttribute="top" secondItem="4ft-G8-yla" secondAttribute="bottom" constant="8" symbolic="YES" id="8NB-ZD-HIc"/>
+                        <constraint firstItem="h3R-hL-VIM" firstAttribute="top" secondItem="cic-sq-Nqe" secondAttribute="bottom" constant="8" symbolic="YES" id="8OY-Bc-bWf"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="GKQ-re-3jY" secondAttribute="height" id="9eg-fu-Y8R"/>
+                        <constraint firstItem="hdh-SZ-wNe" firstAttribute="leading" secondItem="Fb0-Op-f0n" secondAttribute="trailing" constant="8" symbolic="YES" id="A63-Hf-DBS"/>
+                        <constraint firstItem="dQt-Rs-cEr" firstAttribute="leading" secondItem="faK-a8-zUF" secondAttribute="leading" constant="20" symbolic="YES" id="BrE-69-md8"/>
+                        <constraint firstItem="ed9-gq-hUl" firstAttribute="leading" secondItem="GKQ-re-3jY" secondAttribute="trailing" constant="8" symbolic="YES" id="Bxd-Ig-mxl"/>
+                        <constraint firstItem="Slt-GE-6o1" firstAttribute="leading" secondItem="q41-th-0BR" secondAttribute="trailing" constant="8" symbolic="YES" id="COw-oJ-oZl"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="O7k-1J-rN7" secondAttribute="width" id="CRy-96-Dao"/>
+                        <constraint firstItem="qhR-Nx-k6r" firstAttribute="leading" secondItem="h3R-hL-VIM" secondAttribute="trailing" constant="8" symbolic="YES" id="Cn9-Lj-Bef"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="Slt-GE-6o1" secondAttribute="height" id="CrB-5m-oiv"/>
+                        <constraint firstItem="ed9-gq-hUl" firstAttribute="top" secondItem="UC8-K2-Byy" secondAttribute="bottom" constant="8" symbolic="YES" id="DTV-lU-Uc5"/>
+                        <constraint firstItem="q41-th-0BR" firstAttribute="top" secondItem="hdh-SZ-wNe" secondAttribute="bottom" constant="8" symbolic="YES" id="Di3-7p-yBQ"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="4ft-G8-yla" secondAttribute="width" id="Dvz-2z-v68"/>
+                        <constraint firstItem="Slt-GE-6o1" firstAttribute="top" secondItem="NYT-UV-LvN" secondAttribute="bottom" constant="8" symbolic="YES" id="Gbk-Sj-Px8"/>
+                        <constraint firstItem="q41-th-0BR" firstAttribute="leading" secondItem="dQt-Rs-cEr" secondAttribute="trailing" constant="8" symbolic="YES" id="Hbl-cS-weL"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="NYT-UV-LvN" secondAttribute="width" id="I9W-lT-j3X"/>
+                        <constraint firstAttribute="trailing" secondItem="UC8-K2-Byy" secondAttribute="trailing" constant="20" symbolic="YES" id="ItA-vv-vGL"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="leading" secondItem="4ft-G8-yla" secondAttribute="trailing" constant="8" symbolic="YES" id="J1n-4T-G0I"/>
+                        <constraint firstAttribute="bottom" secondItem="3p4-So-2Mz" secondAttribute="bottom" constant="20" symbolic="YES" id="J5c-sd-FC4"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="UiB-wT-gYD" secondAttribute="width" id="Jay-t2-yVZ"/>
+                        <constraint firstItem="NYT-UV-LvN" firstAttribute="leading" secondItem="hdh-SZ-wNe" secondAttribute="trailing" constant="8" symbolic="YES" id="KEG-q4-s6d"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="dQt-Rs-cEr" secondAttribute="height" id="KOq-h6-fpM"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="qhR-Nx-k6r" secondAttribute="height" id="Kab-L7-8FH"/>
+                        <constraint firstAttribute="trailing" secondItem="qhR-Nx-k6r" secondAttribute="trailing" constant="20" symbolic="YES" id="Kg4-u4-idu"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="hdh-SZ-wNe" secondAttribute="width" id="Kzq-Jj-wSY"/>
+                        <constraint firstItem="Fb0-Op-f0n" firstAttribute="top" secondItem="UiB-wT-gYD" secondAttribute="bottom" constant="8" symbolic="YES" id="LpR-0j-IaS"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="cMv-qz-iP5" secondAttribute="width" id="MkD-zB-Lra"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="ed9-gq-hUl" secondAttribute="width" id="NgT-79-dtN"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="h3R-hL-VIM" secondAttribute="width" id="OnT-J6-96I"/>
+                        <constraint firstItem="3p4-So-2Mz" firstAttribute="leading" secondItem="faK-a8-zUF" secondAttribute="leading" constant="20" symbolic="YES" id="QPA-MA-Mb5"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="q41-th-0BR" secondAttribute="height" id="UUH-Od-fQY"/>
+                        <constraint firstItem="GKQ-re-3jY" firstAttribute="leading" secondItem="3p4-So-2Mz" secondAttribute="trailing" constant="8" symbolic="YES" id="UZ8-cd-OXR"/>
+                        <constraint firstItem="ed9-gq-hUl" firstAttribute="leading" secondItem="Slt-GE-6o1" secondAttribute="trailing" constant="8" symbolic="YES" id="WO6-aP-oSc"/>
+                        <constraint firstItem="h3R-hL-VIM" firstAttribute="leading" secondItem="KjX-Jz-bUn" secondAttribute="trailing" constant="8" symbolic="YES" id="aNW-Ck-G8u"/>
+                        <constraint firstAttribute="trailing" secondItem="cMv-qz-iP5" secondAttribute="trailing" constant="20" symbolic="YES" id="ati-UE-Q7r"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="hdh-SZ-wNe" secondAttribute="height" id="c42-0t-u7w"/>
+                        <constraint firstItem="UiB-wT-gYD" firstAttribute="leading" secondItem="faK-a8-zUF" secondAttribute="leading" constant="20" symbolic="YES" id="cYE-wK-Oka"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="4ft-G8-yla" secondAttribute="height" id="cd2-mA-aBZ"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="cMv-qz-iP5" secondAttribute="height" id="d1G-2R-IPW"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="Fb0-Op-f0n" secondAttribute="height" id="fov-xg-6bI"/>
+                        <constraint firstItem="UiB-wT-gYD" firstAttribute="top" secondItem="O7k-1J-rN7" secondAttribute="bottom" constant="8" symbolic="YES" id="g3Z-PD-z5C"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="top" secondItem="faK-a8-zUF" secondAttribute="top" constant="20" symbolic="YES" id="hMl-Mb-mxK"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="qhR-Nx-k6r" secondAttribute="width" id="hbT-fy-1WM"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="Fb0-Op-f0n" secondAttribute="width" id="ivY-vT-1d8"/>
+                        <constraint firstItem="hdh-SZ-wNe" firstAttribute="top" secondItem="KjX-Jz-bUn" secondAttribute="bottom" constant="8" symbolic="YES" id="k6a-hi-GHo"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="Slt-GE-6o1" secondAttribute="width" id="l2m-mu-ecG"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="KjX-Jz-bUn" secondAttribute="height" id="lSe-ZW-3Ds"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="GKQ-re-3jY" secondAttribute="width" id="lZo-qr-9fc"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="UiB-wT-gYD" secondAttribute="height" id="lw7-Tt-vPm"/>
+                        <constraint firstItem="O7k-1J-rN7" firstAttribute="top" secondItem="faK-a8-zUF" secondAttribute="top" constant="20" symbolic="YES" id="lye-tg-10I"/>
+                        <constraint firstItem="3p4-So-2Mz" firstAttribute="top" secondItem="dQt-Rs-cEr" secondAttribute="bottom" constant="8" symbolic="YES" id="mbD-7o-lFg"/>
+                        <constraint firstItem="4ft-G8-yla" firstAttribute="leading" secondItem="O7k-1J-rN7" secondAttribute="trailing" constant="8" symbolic="YES" id="mfp-fT-z1s"/>
+                        <constraint firstItem="dQt-Rs-cEr" firstAttribute="top" secondItem="Fb0-Op-f0n" secondAttribute="bottom" constant="8" symbolic="YES" id="nJx-DK-UsM"/>
+                        <constraint firstItem="GKQ-re-3jY" firstAttribute="top" secondItem="Slt-GE-6o1" secondAttribute="bottom" constant="8" symbolic="YES" id="pCk-au-PFK"/>
+                        <constraint firstItem="UC8-K2-Byy" firstAttribute="leading" secondItem="NYT-UV-LvN" secondAttribute="trailing" constant="8" symbolic="YES" id="qtd-IS-Dzg"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="dQt-Rs-cEr" secondAttribute="width" id="r5j-rc-W7W"/>
+                        <constraint firstItem="3p4-So-2Mz" firstAttribute="top" secondItem="q41-th-0BR" secondAttribute="bottom" constant="8" symbolic="YES" id="rBO-UG-BEi"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="UC8-K2-Byy" secondAttribute="height" id="riz-Af-7Zh"/>
+                        <constraint firstAttribute="trailing" secondItem="ed9-gq-hUl" secondAttribute="trailing" constant="20" symbolic="YES" id="rkA-hN-ksG"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="3p4-So-2Mz" secondAttribute="height" id="to7-6I-jyl"/>
+                        <constraint firstItem="qhR-Nx-k6r" firstAttribute="top" secondItem="cMv-qz-iP5" secondAttribute="bottom" constant="8" symbolic="YES" id="udQ-5i-H0h"/>
+                        <constraint firstAttribute="bottom" secondItem="ed9-gq-hUl" secondAttribute="bottom" constant="20" symbolic="YES" id="vfs-6H-lrM"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="height" secondItem="NYT-UV-LvN" secondAttribute="height" id="x93-mn-8xd"/>
+                        <constraint firstItem="O7k-1J-rN7" firstAttribute="leading" secondItem="faK-a8-zUF" secondAttribute="leading" constant="20" symbolic="YES" id="z02-aS-OPc"/>
+                        <constraint firstAttribute="bottom" secondItem="GKQ-re-3jY" secondAttribute="bottom" constant="20" symbolic="YES" id="z5i-Iq-J4c"/>
+                        <constraint firstItem="cic-sq-Nqe" firstAttribute="width" secondItem="UC8-K2-Byy" secondAttribute="width" id="zJU-1s-FF0"/>
                     </constraints>
-                    <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
-                        <rect key="frame" x="231" y="0.0" width="569" height="800"/>
-                    </variation>
-                </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f2c-N5-ALg" userLabel="FunctionKeypad">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                    <color key="backgroundColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="f2c-N5-ALg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="GXH-77-ZCC"/>
+                <constraint firstAttribute="bottom" secondItem="faK-a8-zUF" secondAttribute="bottom" id="5R0-9F-hI4"/>
                 <constraint firstItem="faK-a8-zUF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KEx-hL-iT5"/>
-                <constraint firstItem="faK-a8-zUF" firstAttribute="leading" secondItem="f2c-N5-ALg" secondAttribute="trailing" id="MSQ-kg-cSa"/>
-                <constraint firstAttribute="bottom" secondItem="f2c-N5-ALg" secondAttribute="bottom" id="ddD-hX-fhN"/>
-                <constraint firstItem="f2c-N5-ALg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kHH-tF-cjt"/>
+                <constraint firstItem="faK-a8-zUF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="U7N-QO-w7e"/>
+                <constraint firstAttribute="trailing" secondItem="faK-a8-zUF" secondAttribute="trailing" id="WD1-Uv-79i"/>
+                <constraint firstItem="faK-a8-zUF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cO6-z0-Ky2"/>
             </constraints>
             <variation key="default">
-                <mask key="subviews">
-                    <exclude reference="f2c-N5-ALg"/>
-                </mask>
                 <mask key="constraints">
-                    <exclude reference="GXH-77-ZCC"/>
-                    <exclude reference="ddD-hX-fhN"/>
-                    <exclude reference="kHH-tF-cjt"/>
                     <exclude reference="KEx-hL-iT5"/>
-                    <exclude reference="MSQ-kg-cSa"/>
                 </mask>
             </variation>
             <variation key="widthClass=regular">
-                <mask key="subviews">
-                    <include reference="f2c-N5-ALg"/>
-                </mask>
                 <mask key="constraints">
                     <include reference="KEx-hL-iT5"/>
                 </mask>
             </variation>
             <variation key="heightClass=regular-widthClass=compact">
-                <mask key="subviews">
-                    <include reference="f2c-N5-ALg"/>
-                </mask>
                 <mask key="constraints">
                     <include reference="KEx-hL-iT5"/>
-                </mask>
-            </variation>
-            <variation key="heightClass=regular-widthClass=regular">
-                <mask key="constraints">
-                    <include reference="GXH-77-ZCC"/>
-                    <include reference="ddD-hX-fhN"/>
-                    <include reference="kHH-tF-cjt"/>
-                    <include reference="MSQ-kg-cSa"/>
                 </mask>
             </variation>
         </view>
