@@ -193,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA4B3A41198D6CEE00667ABA /* Build configuration list for PBXProject "WinningWIthIB" */;
+			buildConfigurationList = FA4B3A41198D6CEE00667ABA /* Build configuration list for PBXProject "WinningWithIB" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -362,6 +362,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WinningWIthIB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WinningWIthIB/WinningWIthIB-Bridging-Header.h";
@@ -376,6 +377,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WinningWIthIB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WinningWIthIB/WinningWIthIB-Bridging-Header.h";
@@ -419,7 +421,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA4B3A41198D6CEE00667ABA /* Build configuration list for PBXProject "WinningWIthIB" */ = {
+		FA4B3A41198D6CEE00667ABA /* Build configuration list for PBXProject "WinningWithIB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA4B3A64198D6CEF00667ABA /* Debug */,

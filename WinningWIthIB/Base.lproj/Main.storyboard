@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="P4Q-pa-Z0k">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="P4Q-pa-Z0k">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -23,9 +23,6 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="testingID" value="LCD"/>
                                 </userDefinedRuntimeAttributes>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="110" width="400" height="116"/>
-                                </variation>
                             </view>
                             <view contentMode="scaleToFill" restorationIdentifier="Keyboard" translatesAutoresizingMaskIntoConstraints="NO" id="ziF-TN-ual" userLabel="Keyboard">
                                 <rect key="frame" x="138" y="100" width="462" height="500"/>
@@ -33,9 +30,6 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="testingID" value="Keyboard"/>
                                 </userDefinedRuntimeAttributes>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="92" y="226" width="308" height="574"/>
-                                </variation>
                             </view>
                             <view contentMode="scaleToFill" restorationIdentifier="FuncKeypad" translatesAutoresizingMaskIntoConstraints="NO" id="pEf-14-AR7" userLabel="FuncKeypad">
                                 <rect key="frame" x="0.0" y="100" width="138" height="500"/>
@@ -43,9 +37,6 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="testingID" value="FuncKeypad"/>
                                 </userDefinedRuntimeAttributes>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="226" width="92" height="574"/>
-                                </variation>
                             </view>
                             <view contentMode="scaleToFill" restorationIdentifier="History" translatesAutoresizingMaskIntoConstraints="NO" id="GmY-02-Dua" userLabel="History">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -57,30 +48,30 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="GmY-02-Dua" firstAttribute="top" secondItem="TdD-R6-WFD" secondAttribute="top" id="52K-Wx-NNX"/>
-                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="leading" secondItem="ziF-TN-ual" secondAttribute="leading" id="5lA-zf-sQN"/>
-                            <constraint firstItem="GmY-02-Dua" firstAttribute="leading" secondItem="Ae9-Js-XXu" secondAttribute="trailing" id="9TA-e2-SuY"/>
-                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="trailing" secondItem="ziF-TN-ual" secondAttribute="trailing" id="9yN-U9-6lt"/>
-                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="top" secondItem="GmY-02-Dua" secondAttribute="bottom" constant="-5" id="Hut-XJ-PLY"/>
-                            <constraint firstItem="pEf-14-AR7" firstAttribute="top" secondItem="ziF-TN-ual" secondAttribute="top" id="MDF-wa-i3t"/>
-                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="height" secondItem="ziF-TN-ual" secondAttribute="height" multiplier="0.2" id="MdZ-sH-8yX"/>
-                            <constraint firstItem="GmY-02-Dua" firstAttribute="width" secondItem="ziF-TN-ual" secondAttribute="width" multiplier="0.3" id="Ocg-Wp-X0x"/>
-                            <constraint firstAttribute="trailing" secondItem="Ae9-Js-XXu" secondAttribute="trailing" id="P5X-cy-7qv"/>
-                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="top" secondItem="TdD-R6-WFD" secondAttribute="top" id="Pzn-m5-MyH"/>
-                            <constraint firstItem="GmY-02-Dua" firstAttribute="height" secondItem="Ae9-Js-XXu" secondAttribute="height" id="VqO-Ts-ToQ"/>
-                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="leading" secondItem="pEf-14-AR7" secondAttribute="leading" id="WaC-Tg-UWq"/>
-                            <constraint firstItem="GmY-02-Dua" firstAttribute="leading" secondItem="TdD-R6-WFD" secondAttribute="leading" id="Xez-7r-AHQ"/>
-                            <constraint firstItem="ziF-TN-ual" firstAttribute="leading" secondItem="pEf-14-AR7" secondAttribute="trailing" id="Xz5-OG-RtQ"/>
-                            <constraint firstAttribute="trailing" secondItem="GmY-02-Dua" secondAttribute="trailing" id="Y4T-vU-V4d"/>
-                            <constraint firstItem="GmY-02-Dua" firstAttribute="top" secondItem="TdD-R6-WFD" secondAttribute="top" id="bO2-oR-1lo"/>
-                            <constraint firstItem="pEf-14-AR7" firstAttribute="width" secondItem="ziF-TN-ual" secondAttribute="width" multiplier="0.3" id="kKL-pO-lNk"/>
-                            <constraint firstItem="YPh-ek-uMM" firstAttribute="top" secondItem="ziF-TN-ual" secondAttribute="bottom" id="kKU-dV-JaA"/>
-                            <constraint firstItem="pEf-14-AR7" firstAttribute="top" secondItem="Ae9-Js-XXu" secondAttribute="bottom" id="l05-LU-JNQ"/>
-                            <constraint firstItem="YPh-ek-uMM" firstAttribute="top" secondItem="pEf-14-AR7" secondAttribute="bottom" id="qvk-JW-2G8"/>
-                            <constraint firstItem="ziF-TN-ual" firstAttribute="top" secondItem="Ae9-Js-XXu" secondAttribute="bottom" id="r9m-wL-IOs"/>
-                            <constraint firstItem="YPh-ek-uMM" firstAttribute="top" secondItem="GmY-02-Dua" secondAttribute="bottom" id="viR-XP-4LJ"/>
-                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="leading" secondItem="TdD-R6-WFD" secondAttribute="leading" id="w2O-1D-0LQ"/>
-                            <constraint firstAttribute="trailing" secondItem="GmY-02-Dua" secondAttribute="trailing" id="whE-DM-vKV"/>
+                            <constraint firstItem="GmY-02-Dua" firstAttribute="top" secondItem="TdD-R6-WFD" secondAttribute="top" id="52K-Wx-NNX" userLabel="RR-Hist-Top"/>
+                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="leading" secondItem="ziF-TN-ual" secondAttribute="leading" id="5lA-zf-sQN" userLabel="CC-LCD-Keyboard Leading"/>
+                            <constraint firstItem="GmY-02-Dua" firstAttribute="leading" secondItem="Ae9-Js-XXu" secondAttribute="trailing" id="9TA-e2-SuY" userLabel="RR-Hist-LCD-LeftRight"/>
+                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="trailing" secondItem="ziF-TN-ual" secondAttribute="trailing" id="9yN-U9-6lt" userLabel="AA-LCD-Keyboard Trailing"/>
+                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="top" secondItem="GmY-02-Dua" secondAttribute="bottom" id="Hut-XJ-PLY" userLabel="CR-Hist-LCD-TopBottom"/>
+                            <constraint firstItem="pEf-14-AR7" firstAttribute="top" secondItem="ziF-TN-ual" secondAttribute="top" id="MDF-wa-i3t" userLabel="AA-Func-Keyboard-TopAlign"/>
+                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="height" secondItem="ziF-TN-ual" secondAttribute="height" multiplier="0.2" id="MdZ-sH-8yX" userLabel="AA-LCD-Keyboard Height"/>
+                            <constraint firstItem="GmY-02-Dua" firstAttribute="width" secondItem="ziF-TN-ual" secondAttribute="width" multiplier="0.3" id="Ocg-Wp-X0x" userLabel="RR-Hist-Keyboard-Width"/>
+                            <constraint firstAttribute="trailing" secondItem="Ae9-Js-XXu" secondAttribute="trailing" id="P5X-cy-7qv" userLabel="AA-Keyboard-Top-Trailing"/>
+                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="top" secondItem="TdD-R6-WFD" secondAttribute="top" id="Pzn-m5-MyH" userLabel="AA-LCD-Container-Top"/>
+                            <constraint firstItem="GmY-02-Dua" firstAttribute="height" secondItem="Ae9-Js-XXu" secondAttribute="height" id="VqO-Ts-ToQ" userLabel="CR-Hist-LCD-Height"/>
+                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="leading" secondItem="pEf-14-AR7" secondAttribute="leading" id="WaC-Tg-UWq" userLabel="AA-LCD-FuncKeypad Leading Align"/>
+                            <constraint firstItem="GmY-02-Dua" firstAttribute="leading" secondItem="TdD-R6-WFD" secondAttribute="leading" id="Xez-7r-AHQ" userLabel="CR-Hist-Leading"/>
+                            <constraint firstItem="ziF-TN-ual" firstAttribute="leading" secondItem="pEf-14-AR7" secondAttribute="trailing" id="Xz5-OG-RtQ" userLabel="AA-Func-Keyboard-RightLeft"/>
+                            <constraint firstAttribute="trailing" secondItem="GmY-02-Dua" secondAttribute="trailing" id="Y4T-vU-V4d" userLabel="CR-Hist-Trailing"/>
+                            <constraint firstItem="GmY-02-Dua" firstAttribute="top" secondItem="TdD-R6-WFD" secondAttribute="top" id="bO2-oR-1lo" userLabel="CR-Hist-Top"/>
+                            <constraint firstItem="pEf-14-AR7" firstAttribute="width" secondItem="ziF-TN-ual" secondAttribute="width" multiplier="0.3" id="kKL-pO-lNk" userLabel="AA-Func-Keyboard-Width"/>
+                            <constraint firstItem="YPh-ek-uMM" firstAttribute="top" secondItem="ziF-TN-ual" secondAttribute="bottom" id="kKU-dV-JaA" userLabel="AA-Keyboard-Bottom"/>
+                            <constraint firstItem="pEf-14-AR7" firstAttribute="top" secondItem="Ae9-Js-XXu" secondAttribute="bottom" id="l05-LU-JNQ" userLabel="AA-Func-LCD-TopBottom"/>
+                            <constraint firstItem="YPh-ek-uMM" firstAttribute="top" secondItem="pEf-14-AR7" secondAttribute="bottom" id="qvk-JW-2G8" userLabel="AA-Func-Bottom"/>
+                            <constraint firstItem="ziF-TN-ual" firstAttribute="top" secondItem="Ae9-Js-XXu" secondAttribute="bottom" id="r9m-wL-IOs" userLabel="CC-LCD-Keyboard-Vertical"/>
+                            <constraint firstItem="YPh-ek-uMM" firstAttribute="top" secondItem="GmY-02-Dua" secondAttribute="bottom" id="viR-XP-4LJ" userLabel="RR-Hist-Bottom"/>
+                            <constraint firstItem="Ae9-Js-XXu" firstAttribute="leading" secondItem="TdD-R6-WFD" secondAttribute="leading" id="w2O-1D-0LQ" userLabel="AA-LCD-Keyboard-LeftAlign"/>
+                            <constraint firstAttribute="trailing" secondItem="GmY-02-Dua" secondAttribute="trailing" id="whE-DM-vKV" userLabel="RR-Hist-Trailing"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="string" keyPath="testingID" value="Container"/>
@@ -90,23 +81,24 @@
                                 <exclude reference="GmY-02-Dua"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="5lA-zf-sQN"/>
-                                <exclude reference="Hut-XJ-PLY"/>
-                                <exclude reference="r9m-wL-IOs"/>
                                 <exclude reference="52K-Wx-NNX"/>
                                 <exclude reference="9TA-e2-SuY"/>
                                 <exclude reference="Ocg-Wp-X0x"/>
                                 <exclude reference="VqO-Ts-ToQ"/>
+                                <exclude reference="5lA-zf-sQN"/>
+                                <exclude reference="Hut-XJ-PLY"/>
+                                <exclude reference="r9m-wL-IOs"/>
+                                <exclude reference="viR-XP-4LJ"/>
                                 <exclude reference="Xez-7r-AHQ"/>
                                 <exclude reference="Y4T-vU-V4d"/>
                                 <exclude reference="bO2-oR-1lo"/>
                                 <exclude reference="whE-DM-vKV"/>
-                                <exclude reference="viR-XP-4LJ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=compact">
                             <mask key="subviews">
                                 <exclude reference="pEf-14-AR7"/>
+                                <exclude reference="GmY-02-Dua"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="5lA-zf-sQN"/>
@@ -129,9 +121,9 @@
                                 <include reference="GmY-02-Dua"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="VqO-Ts-ToQ"/>
                                 <include reference="Hut-XJ-PLY"/>
                                 <exclude reference="Pzn-m5-MyH"/>
-                                <include reference="VqO-Ts-ToQ"/>
                                 <include reference="Xez-7r-AHQ"/>
                                 <include reference="Y4T-vU-V4d"/>
                                 <include reference="bO2-oR-1lo"/>
@@ -142,12 +134,12 @@
                                 <include reference="GmY-02-Dua"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="P5X-cy-7qv"/>
                                 <include reference="52K-Wx-NNX"/>
                                 <include reference="9TA-e2-SuY"/>
                                 <include reference="Ocg-Wp-X0x"/>
-                                <include reference="whE-DM-vKV"/>
+                                <exclude reference="P5X-cy-7qv"/>
                                 <include reference="viR-XP-4LJ"/>
+                                <include reference="whE-DM-vKV"/>
                             </mask>
                         </variation>
                     </view>
@@ -158,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mh9-IA-hJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24" y="1008.75"/>
+            <point key="canvasLocation" x="-37.5" y="948.75"/>
         </scene>
     </scenes>
 </document>

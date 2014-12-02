@@ -21,10 +21,10 @@
     // Override point for customization after application launch.
     
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
-    ViewController *controller = (ViewController*)[mainStoryboard instantiateViewControllerWithIdentifier: @"Calculator"];
+    ViewController *calculator = (ViewController*)[mainStoryboard instantiateViewControllerWithIdentifier: @"Calculator"];
 
     TraitOverrideViewController *traitController = [[TraitOverrideViewController alloc] init];
-    traitController.viewController = controller;
+    traitController.viewController = calculator;
     self.window.rootViewController = traitController;
     
     return YES;
